@@ -31,7 +31,7 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
     //wrap around screen    
     if(myCenterX >width)
     {     
-      myCenterX = 0;    
+      myCenterX = 200;    
     }    
     else if (myCenterX<0)
     {     
@@ -39,7 +39,7 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
     }    
     if(myCenterY >height)
     {    
-      myCenterY = 0;    
+      myCenterY = 200;    
     } 
     
     else if (myCenterY < 0)
