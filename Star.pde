@@ -12,6 +12,6 @@ class Star //note that this class does NOT extend Floater
   {
     stroke(sColor);
     fill(sColor);
-    ellipse(sX,sY,10,10);
+    ellipse(sX,sY,3,3);
   } 
 }
