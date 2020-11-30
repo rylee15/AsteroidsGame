@@ -40,8 +40,8 @@ public void keyPressed()
       bob.accelerate(0);
       bob.setXspeed(0);
       bob.setYspeed(0);
-      bob.myCenterX((int)(Math.random()*300)+100);
-      bob.myCenterY((int)(Math.random()*300)+100);
-      bob.myPointDirection((int)(Math.random()*300)+100);
+      bob.setMyCenterX((int)(Math.random()*300)+100);
+      bob.setMyCenterY((int)(Math.random()*300)+100);
+      bob.setMyPointDirection((int)(Math.random()*300)+100);
     }
 }
